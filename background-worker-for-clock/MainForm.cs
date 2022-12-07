@@ -29,7 +29,7 @@ namespace background_worker_for_clock
                         labelClock.Text = dt.ToString("T");
                     }));
                 }
-                await Task.Delay(1000);
+                await Task.Delay(100);
             }
         }
 
